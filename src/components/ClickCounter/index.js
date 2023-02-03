@@ -16,10 +16,11 @@ class ClickCounter extends Component {
       <div className="bg-container">
         <h1 className="heading">
           The Button has been clicked
+        <br/>
           <span className="number-count"> {count} </span> times
         </h1>
         <p className="paragraph">Click the button to increase the count</p>
-        <div>
+        <div className="button-container">
           <button
             className="button-bg"
             type="button"
